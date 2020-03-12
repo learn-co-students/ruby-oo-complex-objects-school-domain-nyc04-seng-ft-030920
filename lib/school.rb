@@ -25,10 +25,10 @@ end
 
 def sort
   
-    r = @roster.sort.to_a.sort.to_h
-    r2 = r[9].sort
-    r[9] = r2
-    r
+    rost = @roster.sort.to_a.sort.to_h
+    roaster = rost[9].sort
+    rost[9] = roster
+    rost
 
 end
 
